@@ -20,8 +20,10 @@
 
 <h2>Wireframe</h2>
   <p>Advanced Sprinter is a single page game</p>
+  <img src='https://github.com/jz-wang/AdvancedSprinter/blob/master/proposal/wireframe/runner.jpeg' />
 
   <p>with a scoreboard page</p>
+  <img src='https://github.com/jz-wang/AdvancedSprinter/blob/master/proposal/wireframe/score.jpg' />
 
 <h2>Implementation Timeline</h2>
 
