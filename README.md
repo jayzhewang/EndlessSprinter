@@ -3,17 +3,16 @@
 
 <h2>Minimum Viable Product</h2>
 <ul>
-  <li type='circle'>Score Keeping/High score</li>
   <li type='circle'>Responsive Controls</li>
-  <li type='circle'>Fluid jumping/running mechanics(arrow keys + space bar)</li>
-  <li type='circle'>Special ability(ctrl)</li>
-  <li type='circle'>Beautiful backgrounds for levels</li>
+  <li type='circle'>Jumping(space bar)</li>
+  <li type='circle'>Collision detection</li>
+  <li type='circle'>Runner image</li>
+  <li type='circle'>Beautiful backgrounds for one level</li>
 </ul>
 
 <h2>Technologies</h2>
 <ul>
   <li type='disc'>Vanilla JS</li>
-  <li type='disc'>EasleJS</li>
   <li type='disc'>SoundJS</li>
   <li type='disc'>HTML5</li>
 </ul>
@@ -29,7 +28,6 @@
 
 <h3>Day I: Learn</h3>
   <ul>
-    <li type='disc'>Learn EasleJS/SoundJS</li>
     <li type='disc'>Design game backgrounds</li>
     <li type='disc'>Design runner figure</li>
     <li type='disc'>Improve Implementation Timeline according to newly learned technologies</li>
@@ -64,4 +62,11 @@
     <li type='disc'>Bug Test</li>
     <li type='disc'>Making game smooth</li>
     <li type='disc'>Test with classmates</li>
+  </ul>
+
+<h4>Bonus</h4>
+  <ul>
+    <li type='circle'>Score Keeping/High score</li>
+    <li type='circle'>Special ability(ctrl)</li>
+    <li type='circle'>Create two more levels</li>
   </ul>
