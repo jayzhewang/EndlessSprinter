@@ -12,5 +12,5 @@
   <p>Navigate through terrains with obstacles and pitfalls.</p>
   <img src='https://github.com/jz-wang/AdvancedSprinter/blob/master/proposal/wireframe/runner.jpeg' />
 
-  <p>Compare your highscore with others/p>
+  <p>Compare your highscore with others</p>
   <img src='https://github.com/jz-wang/AdvancedSprinter/blob/master/proposal/wireframe/score.jpg' />
