@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>Advanced Runner</title>
+    <script src="jquery-3.1.1.min.js"></script>
     <script type="application/javascript" src="vendor/keymaster.js"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
     <link rel="stylesheet" type="text/css" href="stylesheets/game.css">
@@ -8,19 +9,19 @@
 
   <body>
     <div class='canvas-container'>
-      <div class='info'>
-        <div>High Scores:</div>
-      </div>
       <div class='game'>
-        <canvas class='canvas'></canvas>
+        <div class='info'>
+          <div class='info-inner'>
+            <!--highscores display-->
+          </div>
+        </div>
+        <canvas class='canvas'>
+        </canvas>
         <div class='instructions1'>
           <div>Space : Jump</div>
         </div>
         <div class='instructions2'>
           <div>Enter : Pause/Resume</div>
-        </div>
-        <div class='restart'>
-          <div type="submit" onClick="window.location.reload()">Restart</div>
         </div>
       </div>
     </div>
