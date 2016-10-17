@@ -1,3 +1,46 @@
+html, body, header, footer, section, article, div,
+strong, a, img, p, h1, h2, h3, time, ul, li, small,
+form, label, input, textarea, button {
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+  font: inherit;
+  box-sizing: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #c6c6c6 !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+  color: #c6c6c6 !important;  
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+  color: #c6c6c6 !important;  
+}
+
+input:-ms-input-placeholder {
+  color: #c6c6c6 !important;  
+}
+
+input[type=text] {
+    color: red;
+}
+
 .canvas-container {
   display: flex;
   justify-content: center;
@@ -72,11 +115,18 @@
   display: flex;
   justify-content: center;
   margin-top: 5px;
+  font-size: 14px;
 }
 
 #nameinput {
   margin-right: 5px;
   border-radius: 2px;
+  text-align: left;
+  width: 120px;
+  border-top: 2px solid #9a9a9a;
+  border-left: 2px solid #9a9a9a;
+  border-bottom: 2px solid #eeeeee;
+  border-right: 2px solid #eeeeee;
 }
 
 #submit {
@@ -84,6 +134,18 @@
   border-radius: 2px;
   color: #fff;
   font-weight: bold;
+  padding: 0 2px;
+  border-top: 2px solid #d3d3d3;
+  border-left: 2px solid #d3d3d3;
+  border-bottom: 2px solid #9a9a9a;
+  border-right: 2px solid #9a9a9a;
+}
+
+#submit:active {
+  border-top: 2px solid #9a9a9a;
+  border-left: 2px solid #9a9a9a;
+  border-bottom: 2px solid #d3d3d3;
+  border-right: 2px solid #d3d3d3;
 }
 
 #default-player {
