@@ -1,5 +1,5 @@
 html, body, header, footer, section, article, div,
-strong, a, img, p, h1, h2, h3, time, ul, li, small,
+strong, a, img, p, h1, h2, h3, time, ul, li, smbackground,
 form, label, input, textarea, button {
   margin: 0;
   border: 0;
@@ -122,6 +122,14 @@ input[type=text] {
   font-size: 14px;
 }
 
+.default-player {
+  color: #d3d3d3;
+}
+
+.highlight {
+  background: red;
+}
+
 #nameinput {
   margin-right: 5px;
   border-radius: 2px;
@@ -157,10 +165,6 @@ input[type=text] {
 
 #submit:hover{
   cursor: pointer;
-}
-
-#default-player {
-  color: #d3d3d3;
 }
 
 table {
