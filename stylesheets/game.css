@@ -1,5 +1,5 @@
 html, body, header, footer, section, article, div,
-strong, a, img, p, h1, h2, h3, time, ul, li, smbackground,
+strong, a, img, p, h1, h2, h3, time, ul, li,
 form, label, input, textarea, button {
   margin: 0;
   border: 0;
@@ -127,7 +127,7 @@ input[type=text] {
 }
 
 .highlight {
-  background: red;
+  background-color: red;
   color: #fff;
 }
 
