@@ -127,8 +127,8 @@ input[type=text] {
 }
 
 .highlight {
-  background-color: red;
-  color: #fff;
+  color: red;
+  font-weight: bold;
 }
 
 #nameinput {
