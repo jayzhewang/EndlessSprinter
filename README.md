@@ -1,5 +1,5 @@
 <h1>Endless Sprinter</h1>
-<a href='https://jz-wang.github.io/'>Live</a>
+<a href='https://jz-wang.github.io/'>Play</a>
 <p>A browser runner game.</p>
 <p>Built with vanilla JS, canvas, html and css.</p>
 <p>Fun, challenging, rewarding.</p>
