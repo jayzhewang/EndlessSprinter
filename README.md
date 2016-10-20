@@ -21,13 +21,8 @@
 queue(){
   this.currentLand.shift();
   if(this.currentPieceNumber === this.Land.length - 1){
-    this.currentLand.push(Object.assign({}, this.Land[this.currentPieceNumber]));
-    this.currentPieceNumber = 9;
-    if (this.moveSpeed < 3.5){
-      this.moveSpeed += 0.5;
-    } if (this.moveSpeed === 3.5 ){
-      this.moveSpeed = 4.5;
-    }
+     this.currentLand.push(Object.assign({}, this.Land[this.currentPieceNumber]));
+     this.currentPieceNumber = 9;
   }
   ...
 }
@@ -39,7 +34,7 @@ queue(){
 fall(isLanded){
   if( !isLanded ){
     if(this.action !== 'falling'){
-      this.action = 'falling';
+       this.action = 'falling';
     }
     this.getVelocityFall();
     this.y += this.velocity;
