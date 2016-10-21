@@ -1,9 +1,11 @@
+const webpack = require('webpack');
+
 module.exports = {
   entry: "./lib/advanced_sprinter.js",
   output: {
   	filename: "./lib/bundle.js"
   },
-  devtool: 'source-map',
+  devtool: 'cheap-module-source-map',
   resolve: {
     extensions: ['', '.js']
   },
@@ -23,4 +25,11 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env': {
+        'NODE_ENV': JSON.stringify('production')
+      }
+    })
+  ]
 };
