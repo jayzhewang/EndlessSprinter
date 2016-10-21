@@ -30,7 +30,7 @@ queue(){
 
 <p>The game runs using a setInterval that re-renders the canvas every 10ms. Each component of the game (sprinter, land, river) has a step method. On each interval, component coordinates are re-calculated using their own step method. The game ends when a collision has occurred, in which case the interval is cleared and the leaderboard is shown.</p>
 
-<p>The jumping physics is simulated, and according to current y height of the sprinter, velocity is determined.</p>
+<p>The jumping physics are simulated, and according to current y height of the sprinter, velocity is determined.</p>
 
 ```javascript
 fall(isLanded){
