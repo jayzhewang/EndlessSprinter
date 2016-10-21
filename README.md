@@ -15,7 +15,7 @@
      height='261'/>
 
 <h1>Implementations</h1>
-<p>The level is contained in a level object. The screen is split into 10 sections, each sub-array in the level object is 1 section of the screen, called a land pice. 12 land pieces are loaded at a time into a queue. When the first piece of the queue has moved far enough off of the screen, it is shifted and another piece is loaded.</p>
+<p>The level is contained in a level object. The screen is split into 10 sections, each sub-array in the level object is 1 section of the screen, called a land piece. 12 land pieces are loaded at a time into a queue. When the first piece of the queue has moved far enough off of the screen, it is shifted and another piece is loaded.</p>
 
 ```javascript
 queue(){
