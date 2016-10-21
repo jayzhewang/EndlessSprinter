@@ -28,6 +28,8 @@ queue(){
 }
 ```
 
+<p>The game runs using a setInterval that re-renders the canvas every 10ms. Each component of the game (sprinter, land, river) has a step method. On each interval, component coordinates are re-calculated using their own step method. The game ends when a collision has occurred, in which case the interval is cleared and the leaderboard is shown.</p>
+
 <p>The jumping physics is simulated, and according to current y height of the sprinter, velocity is determined.</p>
 
 ```javascript
@@ -58,6 +60,22 @@ checkCollision(){
   }
   return 'no collision';
 }
+```
+
+<p>Sprinter animations are achieved with sprite sheets and manipulating the canvas drawImage method.</p>
+
+```javascript
+this.ctx.drawImage(
+  explosion,
+  explodeCoords[this.idx][0],
+  explodeCoords[this.idx][1],
+  95,
+  95,
+  this.sprinterCoords[0] - 40,
+  this.sprinterCoords[1] - 40,
+  this.sprinterCoords[2] + 40,
+  this.sprinterCoords[3] + 40
+);
 ```
 
 <p>High scores are fetched and saved from a rails server. Rack middleware 'rack-cors' is used on the server-end to enable cross origin resource sharing.</p>
